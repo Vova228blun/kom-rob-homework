@@ -1,0 +1,141 @@
+header {
+  padding-top: 50px;
+  padding-left: 165px;
+  background-image: url(../img/Xlib.png);
+  background-size: cover;
+  height: 1024px;
+  li {
+    @include textStyle(200px, 24px, 29px);
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    padding-bottom: 71px;
+  }
+  .text-header {
+    color: #ffffff;
+    width: 650px;
+    h1 {
+      @include textStyle(200px, 70px, 85px);
+      padding-bottom: 22px;
+    }
+    p {
+      @include textStyle(300px, 21px, 25px);
+      padding-bottom: 33px;
+    }
+    button {
+      @include textStyle(300px, 24px, 29px);
+      background: #b47b48;
+      border-radius: 17px;
+      width: 207px;
+      height: 57px;
+      border: none;
+      color: #ffffff;
+    }
+  }
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 1400px;
+    height: 450px;
+    .card-1 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 290px;
+      height: 225px;
+      background: #272727;
+      padding: 10px;
+      color: #ffffff;
+      &:hover {
+        background: #ebad51;
+      }
+      h2 {
+        @include textStyle(200px, 24px, 29px);
+        padding-bottom: 13px;
+      }
+      p {
+        @include textStyle(500px, 16px, 19px);
+        padding-bottom: 35px;
+      }
+      button {
+        background: #c85312;
+        border: none;
+        color: #ffffff;
+        width: 79px;
+        height: 34px;
+      }
+      img {
+        width: 150px;
+        margin-bottom: 50px;
+      }
+    }
+    .card-2 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 310px;
+      height: 225px;
+      background: #272727;
+      padding: 10px;
+      color: #ffffff;
+      &:hover {
+        background: #ebad51;
+      }
+      img {
+        width: 215px;
+      }
+      h2 {
+        @include textStyle(200px, 24px, 29px);
+        text-align: center;
+      }
+      p {
+        @include textStyle(500px, 14px, 17px);
+        padding-bottom: 34px;
+      }
+      button {
+        background: #c85312;
+        border: none;
+        color: #ffffff;
+        width: 79px;
+        height: 34px;
+      }
+    }
+    .card-3 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 310px;
+      height: 225px;
+      padding: 10px;
+      background: #272727;
+      color: #ffffff;
+      &:hover {
+        background: #ebad51;
+      }
+      img {
+        width: 235px;
+        margin-top: 30px;
+      }
+      h2 {
+        @include textStyle(200px, 24px, 29px);
+        text-align: center;
+        padding-bottom: 13px;
+      }
+      p {
+        @include textStyle(500px, 16px, 19px);
+        text-align: center;
+        padding-bottom: 29px;
+      }
+      button {
+        background: #c85312;
+        border: none;
+        color: #ffffff;
+        width: 79px;
+        height: 34px;
+        display: block;
+        margin: auto;
+      }
+    }
+  }
+}

@@ -1,0 +1,339 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Inter:wght@100&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+header {
+  padding-top: 50px;
+  padding-left: 165px;
+  background-image: url(../img/Xlib.png);
+  background-size: cover;
+  height: 1024px;
+}
+header li {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200px;
+  font-size: 24px;
+  line-height: 29px;
+  display: inline-block;
+  color: white;
+  padding: 10px;
+  padding-bottom: 71px;
+}
+header .text-header {
+  color: #ffffff;
+  width: 650px;
+}
+header .text-header h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200px;
+  font-size: 70px;
+  line-height: 85px;
+  padding-bottom: 22px;
+}
+header .text-header p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300px;
+  font-size: 21px;
+  line-height: 25px;
+  padding-bottom: 33px;
+}
+header .text-header button {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300px;
+  font-size: 24px;
+  line-height: 29px;
+  background: #b47b48;
+  border-radius: 17px;
+  width: 207px;
+  height: 57px;
+  border: none;
+  color: #ffffff;
+}
+header .cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 1400px;
+  height: 450px;
+}
+header .cards .card-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 290px;
+  height: 225px;
+  background: #272727;
+  padding: 10px;
+  color: #ffffff;
+}
+header .cards .card-1:hover {
+  background: #ebad51;
+}
+header .cards .card-1 h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200px;
+  font-size: 24px;
+  line-height: 29px;
+  padding-bottom: 13px;
+}
+header .cards .card-1 p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 19px;
+  padding-bottom: 35px;
+}
+header .cards .card-1 button {
+  background: #c85312;
+  border: none;
+  color: #ffffff;
+  width: 79px;
+  height: 34px;
+}
+header .cards .card-1 img {
+  width: 150px;
+  margin-bottom: 50px;
+}
+header .cards .card-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 310px;
+  height: 225px;
+  background: #272727;
+  padding: 10px;
+  color: #ffffff;
+}
+header .cards .card-2:hover {
+  background: #ebad51;
+}
+header .cards .card-2 img {
+  width: 215px;
+}
+header .cards .card-2 h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200px;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+}
+header .cards .card-2 p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500px;
+  font-size: 14px;
+  line-height: 17px;
+  padding-bottom: 34px;
+}
+header .cards .card-2 button {
+  background: #c85312;
+  border: none;
+  color: #ffffff;
+  width: 79px;
+  height: 34px;
+}
+header .cards .card-3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 310px;
+  height: 225px;
+  padding: 10px;
+  background: #272727;
+  color: #ffffff;
+}
+header .cards .card-3:hover {
+  background: #ebad51;
+}
+header .cards .card-3 img {
+  width: 235px;
+  margin-top: 30px;
+}
+header .cards .card-3 h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200px;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  padding-bottom: 13px;
+}
+header .cards .card-3 p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  padding-bottom: 29px;
+}
+header .cards .card-3 button {
+  background: #c85312;
+  border: none;
+  color: #ffffff;
+  width: 79px;
+  height: 34px;
+  display: block;
+  margin: auto;
+}
+
+section {
+  background: #202023;
+}
+section > h2 {
+  text-align: center;
+  padding-top: 21px;
+  padding-bottom: 18px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100px;
+  font-size: 64px;
+  line-height: 77px;
+  color: white;
+}
+section .menu {
+  display: grid;
+  grid-template-columns: 328px 328px;
+  justify-content: center;
+  gap: 14px 198px;
+  padding-bottom: 73px;
+}
+section .menu .card-4 {
+  color: white;
+}
+section .menu .card-4 button {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800px;
+  font-size: 25px;
+  line-height: 31px;
+  background: #b47b48;
+  border-radius: 17px;
+  border: none;
+  display: block;
+  margin: auto;
+  width: 160px;
+  height: 41px;
+  color: white;
+  margin-top: 12px;
+}
+section .menu .textimg-Bread {
+  border: 1px solid #ffffff;
+  padding: 20px 14px 14px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800px;
+  font-size: 25px;
+  line-height: 31px;
+}
+section .menu .textimg-Bread img {
+  width: 100%;
+  display: block;
+}
+section .menu .textimg-Bread h2 {
+  text-align: center;
+}
+section .menu .textimg-Cakes {
+  border: 1px solid #ffffff;
+  padding: 1px 40px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800px;
+  font-size: 25px;
+  line-height: 31px;
+}
+section .menu .textimg-Cakes img {
+  width: 100%;
+  display: block;
+}
+section .menu .textimg-Cakes h2 {
+  text-align: center;
+}
+section .menu .textimg-CoockiesPretzels {
+  border: 1px solid #ffffff;
+  padding: 6px 72px 0 42px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800px;
+  font-size: 25px;
+  line-height: 31px;
+}
+section .menu .textimg-CoockiesPretzels img {
+  width: 100%;
+  display: block;
+  height: 241px;
+}
+section .menu .textimg-CoockiesPretzels h2 {
+  text-align: center;
+}
+section .menu .textimg-Bekary {
+  border: 1px solid #ffffff;
+  padding: 1px 40px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800px;
+  font-size: 25px;
+  line-height: 31px;
+}
+section .menu .textimg-Bekary img {
+  width: 290px;
+  display: block;
+  height: 219px;
+}
+section .menu .textimg-Bekary h2 {
+  text-align: center;
+}

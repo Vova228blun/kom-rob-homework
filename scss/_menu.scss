@@ -1,0 +1,82 @@
+section {
+  background: #202023;
+  & > h2 {
+    text-align: center;
+    padding-top: 21px;
+    padding-bottom: 18px;
+    @include textStyle(100px, 64px, 77px);
+    color: white;
+  }
+  .menu {
+    display: grid;
+    grid-template-columns: 328px 328px;
+    justify-content: center;
+    gap: 14px 198px;
+    padding-bottom: 73px;
+    .card-4 {
+      color: white;
+      button {
+        @include textStyle(800px, 25px, 31px);
+        background: #b47b48;
+        border-radius: 17px;
+        border: none;
+        display: block;
+        margin: auto;
+        width: 160px;
+        height: 41px;
+        color: white;
+        margin-top: 12px;
+      }
+    }
+    .textimg-Bread {
+      img {
+        width: 100%;
+        display: block;
+      }
+      h2 {
+        text-align: center;
+      }
+      border: 1px solid #ffffff;
+      padding: 20px 14px 14px;
+      @include textStyle(800px, 25px, 31px);
+    }
+    .textimg-Cakes {
+      img {
+        width: 100%;
+        display: block;
+      }
+      h2 {
+        text-align: center;
+      }
+      border: 1px solid #ffffff;
+      padding: 1px 40px;
+      @include textStyle(800px, 25px, 31px);
+    }
+    .textimg-CoockiesPretzels {
+      img {
+        width: 100%;
+        display: block;
+        height: 241px;
+      }
+      h2 {
+        text-align: center;
+      }
+      border: 1px solid #ffffff;
+      padding: 6px 72px 0 42px;
+      @include textStyle(800px, 25px, 31px);
+    }
+    .textimg-Bekary {
+      img {
+        width: 290px;
+        display: block;
+        height: 219px;
+      }
+      h2 {
+        text-align: center;
+      }
+      border: 1px solid #ffffff;
+      padding: 1px 40px;
+      @include textStyle(800px, 25px, 31px);
+    }
+  }
+}
